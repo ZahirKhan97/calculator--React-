@@ -1,1 +1,21 @@
-.calculator {}
+.mainContainer {
+  background: linear-gradient(135deg, #f63321 0%, #0a5ff1 100%);
+  /* Optional: Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  /* Optional: Subtle shadow for depth */
+}
+
+.calculator {
+  border: 1px solid rgb(90, 90, 90);
+  width: 300px;
+  border-radius: 7px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  /* Align content vertically */
+  justify-content: center;
+  /* Center content vertically */
+  align-items: center;
+  /* Center content horizontally */
+  background: linear-gradient(135deg, #f5f865 0%, #66ed5a 100%);
+}

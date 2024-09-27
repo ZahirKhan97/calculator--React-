@@ -1,0 +1,30 @@
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  width: 85px;
+  height: 60px;
+  margin: 3px;
+  border: 1px solid rgb(126, 125, 125);
+  border-radius: 5px;
+  color: #ccc;
+  transition: transform 0.2s, background-color 0.2s;
+  /* Smooth transition for effects */
+  background-color: #4927f2;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #c7bdf6;
+  /* Change background color on hover */
+  transform: scale(1.05);
+  /* Slightly increase size on hover */
+  border-color: #4927f2;
+  /* Optional: Change border color on hover */
+  color: #4927f2;
+  font-weight: 600;
+}
